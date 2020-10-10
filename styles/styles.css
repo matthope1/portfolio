@@ -235,6 +235,11 @@ html {
   overflow: hidden;
 }
 
-h1 {
-  color: blue;
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
 }
