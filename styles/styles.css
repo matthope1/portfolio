@@ -239,6 +239,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: #111418;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -246,6 +250,15 @@ html {
 
 li {
   list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  color: white;
 }
 
 header .nav {
