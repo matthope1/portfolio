@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 @import 'setup';
 @import 'variables';
 
@@ -6,26 +7,27 @@ html {
 }
 
 body {
-
     background-color: $black;
 }
 
 .wrapper {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 li {
     list-style: none;
+    padding-right: 10px;
     a {
         text-decoration: none;
         color: white;
+        font-family: $primary;
     }
 }
 
 
 header {
-
+    height: 100vh;
     color: white;
 
     .nav {
@@ -35,10 +37,14 @@ header {
 
     .logo {
        width: 20%; 
+       font-family: $primary;
     }
     
     nav {
         width: 60%;
+        ul {
+            display: flex;
+        }
     }
 
 }
