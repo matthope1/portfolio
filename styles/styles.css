@@ -243,3 +243,24 @@ html {
   width: 90%;
   margin: 0 auto;
 }
+
+li {
+  list-style: none;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  width: 20%;
+}
+
+header nav {
+  width: 60%;
+}
