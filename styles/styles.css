@@ -242,6 +242,7 @@ html {
 
 body {
   background-color: #111418;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
@@ -291,8 +292,8 @@ header .button {
   border: 1px solid white;
   border-radius: 16px;
   padding: 4px 12px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
 header .button:hover {
@@ -304,15 +305,16 @@ header .link--animation:after {
   display: block;
   content: '';
   border-bottom: solid 2px white;
+  margin-top: 7px;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: -webkit-transform 250ms ease-in;
-  transition: -webkit-transform 250ms ease-in;
-  transition: transform 250ms ease-in;
-  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+  -webkit-transition: -webkit-transform 350ms ease-in-out;
+  transition: -webkit-transform 350ms ease-in-out;
+  transition: transform 350ms ease-in-out;
+  transition: transform 350ms ease-in-out, -webkit-transform 350ms ease-in-out;
 }
 
 header .link--animation:hover:after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  -webkit-transform: scaleX(1.25);
+          transform: scaleX(1.25);
 }

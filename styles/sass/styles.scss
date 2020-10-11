@@ -8,6 +8,7 @@ html {
 
 body {
     background-color: $black;
+    font-family: $primary;
 }
 
 .wrapper {
@@ -23,8 +24,6 @@ li {
         text-decoration: none;
         color: white;
         font-family: $primary;
-
-        
     }
 }
 
@@ -54,26 +53,26 @@ header {
         border: 1px solid white ;
         border-radius: 16px;
         padding: 4px 12px;
-        transition: all .3s;
+        transition: all .6s;
     }
 
     .button:hover {
         color: $pink;
         background-color: white;
     }
-
     
 
     .link--animation:after {
         display: block;
         content: '';
         border-bottom: solid 2px white;
+        margin-top: 7px;
         transform: scaleX(0);
-        transition: transform 250ms ease-in;
+        transition: transform 350ms ease-in-out;
     }
 
     .link--animation:hover:after {
-        transform: scaleX(1);
+        transform: scaleX(1.25);
     }
 
 }
