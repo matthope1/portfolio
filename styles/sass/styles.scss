@@ -9,6 +9,7 @@ html {
 body {
     background-color: $black;
     font-family: $primary;
+    color: white;
 }
 
 .wrapper {
@@ -27,7 +28,6 @@ li {
     }
 }
 
-
 header {
     height: 100vh;
     color: white;
@@ -42,12 +42,12 @@ header {
        width: 10%; 
        font-family: $primary;
     }
-    
-    nav {
-        ul {
-            display: flex;
-        }
+
+    ul {
+        display: flex;
+        padding-top: 7px;
     }
+    
     
     .button {
         border: 1px solid white ;
@@ -61,10 +61,13 @@ header {
         background-color: white;
     }
     
+    //FIXME:
+    // gray color isnt being applied
 
     .link--animation:after {
         display: block;
         content: '';
+        color: $Gray;
         border-bottom: solid 2px white;
         margin-top: 7px;
         transform: scaleX(0);
@@ -75,8 +78,36 @@ header {
         transform: scaleX(1.25);
     }
 
+    .link-animation:hover {
+        color: $Gray;
+    }
+
+    .header {
+        text-align: center;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+
 }
 
 
 
+.bio {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 30%;
+        }
+        
+        div {
+            width: 60%;
+            border: solid;
+        }
+    }
+
+}
 

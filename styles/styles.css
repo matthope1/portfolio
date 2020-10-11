@@ -243,6 +243,7 @@ html {
 body {
   background-color: #111418;
   font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .wrapper {
@@ -282,10 +283,11 @@ header .logo {
   font-family: "Poppins", sans-serif;
 }
 
-header nav ul {
+header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 7px;
 }
 
 header .button {
@@ -304,6 +306,7 @@ header .button:hover {
 header .link--animation:after {
   display: block;
   content: '';
+  color: #4c4d4d;
   border-bottom: solid 2px white;
   margin-top: 7px;
   -webkit-transform: scaleX(0);
@@ -317,4 +320,41 @@ header .link--animation:after {
 header .link--animation:hover:after {
   -webkit-transform: scaleX(1.25);
           transform: scaleX(1.25);
+}
+
+header .link-animation:hover {
+  color: #4c4d4d;
+}
+
+header .header {
+  text-align: center;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bio .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bio .wrapper img {
+  width: 30%;
+}
+
+.bio .wrapper div {
+  width: 60%;
+  border: solid;
 }
