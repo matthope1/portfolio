@@ -23,6 +23,8 @@ li {
         text-decoration: none;
         color: white;
         font-family: $primary;
+
+        
     }
 }
 
@@ -49,7 +51,7 @@ header {
     }
     
     .button {
-        border: 2px solid white ;
+        border: 1px solid white ;
         border-radius: 16px;
         padding: 4px 12px;
         transition: all .3s;
@@ -59,4 +61,23 @@ header {
         color: $pink;
         background-color: white;
     }
+
+    
+
+    .link--animation:after {
+        display: block;
+        content: '';
+        border-bottom: solid 2px white;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in;
+    }
+
+    .link--animation:hover:after {
+        transform: scaleX(1);
+    }
+
 }
+
+
+
+

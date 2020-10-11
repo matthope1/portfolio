@@ -288,7 +288,7 @@ header nav ul {
 }
 
 header .button {
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 16px;
   padding: 4px 12px;
   -webkit-transition: all .3s;
@@ -298,4 +298,21 @@ header .button {
 header .button:hover {
   color: #e83e8c;
   background-color: white;
+}
+
+header .link--animation:after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px white;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+header .link--animation:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
