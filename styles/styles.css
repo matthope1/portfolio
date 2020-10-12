@@ -236,6 +236,20 @@ html {
   overflow: hidden;
 }
 
+@-webkit-keyframes buttonScroll {
+  from {
+  }
+  to {
+  }
+}
+
+@keyframes buttonScroll {
+  from {
+  }
+  to {
+  }
+}
+
 html {
   font-size: 62.5%;
 }
