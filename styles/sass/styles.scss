@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 @import 'setup';
 @import 'variables';
+@import 'animations';
 
 html {
     font-size: 62.5%;
@@ -9,6 +10,10 @@ html {
 body {
     background-color: $black;
     font-family: $primary;
+    color: white;
+}
+
+i {
     color: white;
 }
 
@@ -29,8 +34,9 @@ li {
 }
 
 header {
-    height: 100vh;
+    height: 70vh;
     color: white;
+    position: relative;
 
     .nav {
         padding-top: 20px;
@@ -90,9 +96,28 @@ header {
         justify-content: center; 
     }
 
+    .scroll-down-arrow {
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
+        width: 80%;
+
+        span i {
+            opacity: .1;
+            transition: all .3s;
+        }
+
+        span i:hover {
+            transform: translateY(20px);
+            opacity: 1.1;
+        }
+    }
+
 }
 
 .bio {
+    padding-top: 50px;
+
     span {
         color: $pink;
     }
@@ -107,7 +132,6 @@ header {
         
         div {
             width: 50%;
-            border: solid;
         }
     }
 

@@ -246,6 +246,10 @@ body {
   color: white;
 }
 
+i {
+  color: white;
+}
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
@@ -264,8 +268,9 @@ li a {
 }
 
 header {
-  height: 100vh;
+  height: 70vh;
   color: white;
+  position: relative;
 }
 
 header .nav {
@@ -341,6 +346,29 @@ header .header {
           justify-content: center;
 }
 
+header .scroll-down-arrow {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+header .scroll-down-arrow span i {
+  opacity: .1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+header .scroll-down-arrow span i:hover {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  opacity: 1.1;
+}
+
+.bio {
+  padding-top: 50px;
+}
+
 .bio span {
   color: #e83e8c;
 }
@@ -360,5 +388,4 @@ header .header {
 
 .bio .wrapper div {
   width: 50%;
-  border: solid;
 }
