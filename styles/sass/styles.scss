@@ -92,19 +92,21 @@ header {
 
 }
 
-
-
 .bio {
+    span {
+        color: $pink;
+    }
+
     .wrapper {
         display: flex;
         justify-content: space-between;
 
         img {
-            width: 30%;
+            width: 45%;
         }
         
         div {
-            width: 60%;
+            width: 50%;
             border: solid;
         }
     }
