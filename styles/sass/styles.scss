@@ -53,7 +53,7 @@ header {
         border: 1px solid white ;
         border-radius: 16px;
         padding: 4px 12px;
-        transition: all .6s;
+        transition: color .6s, background-color .6s;
     }
 
     .button:hover {
