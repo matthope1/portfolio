@@ -1,17 +1,13 @@
 
 @-webkit-keyframes buttonScroll {
     from {botton: 20px;}
-    to {bottom: 0px;
-        color: green
-    }
+    to {bottom: 0px;}
 }
 
-
-
 @keyframes buttonScroll {
-    from {botton: 20px;}
-    to {bottom: 0px;
-        color: green
-    }
+    from {botton: 20px;
+        opacity: .1;}
 
+    to {bottom: 0px;
+        opacity: 1;}
 }

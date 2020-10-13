@@ -102,15 +102,9 @@ header {
         bottom: 20px;
         text-align: center;
         width: 80%;
-        border: solid;
-
-        animation: buttonScroll 3s;
+        animation: buttonScroll 1.35s;
         animation-iteration-count: infinite;
-
-        span i {
-            opacity: .1;
-            color: white;
-        }
+        opacity: .1;
     }
 }
 
