@@ -252,7 +252,7 @@ html {
   }
   to {
     bottom: 0px;
-    opacity: 1;
+    opacity: .9;
   }
 }
 
@@ -270,8 +270,13 @@ i {
   color: white;
 }
 
+h2 {
+  margin: 0;
+}
+
 .wrapper {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -376,6 +381,7 @@ header .scroll-down-arrow {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   opacity: .1;
+  height: 30px;
 }
 
 .bio {
@@ -401,4 +407,13 @@ header .scroll-down-arrow {
 
 .bio .wrapper div {
   width: 50%;
+}
+
+.bio .wrapper p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.skills {
+  padding-top: 75px;
+  text-align: center;
 }

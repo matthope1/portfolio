@@ -18,8 +18,13 @@ i {
     color: white;
 }
 
+h2 {
+    margin: 0;
+}
+
 .wrapper {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -105,6 +110,7 @@ header {
         animation: buttonScroll 1.35s;
         animation-iteration-count: infinite;
         opacity: .1;
+        height: 30px;
     }
 }
 
@@ -126,7 +132,18 @@ header {
         div {
             width: 50%;
         }
+        
+        p {
+            color: rgba(255,255,255,.5);
+        }
     }
 
 }
+
+.skills {
+    padding-top: 75px;
+    text-align: center;
+}
+
+
 
