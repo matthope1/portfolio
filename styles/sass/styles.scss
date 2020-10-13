@@ -3,6 +3,7 @@
 @import 'variables';
 @import 'animations';
 
+
 html {
     font-size: 62.5%;
 }
@@ -101,18 +102,16 @@ header {
         bottom: 20px;
         text-align: center;
         width: 80%;
+        border: solid;
+
+        animation: buttonScroll 3s;
+        animation-iteration-count: infinite;
 
         span i {
             opacity: .1;
-            transition: all .3s;
-        }
-
-        span i:hover {
-            transform: translateY(20px);
-            opacity: 1.1;
+            color: white;
         }
     }
-
 }
 
 .bio {

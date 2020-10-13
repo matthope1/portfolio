@@ -238,15 +238,21 @@ html {
 
 @-webkit-keyframes buttonScroll {
   from {
+    botton: 20px;
   }
   to {
+    bottom: 0px;
+    color: green;
   }
 }
 
 @keyframes buttonScroll {
   from {
+    botton: 20px;
   }
   to {
+    bottom: 0px;
+    color: green;
   }
 }
 
@@ -365,18 +371,16 @@ header .scroll-down-arrow {
   bottom: 20px;
   text-align: center;
   width: 80%;
+  border: solid;
+  -webkit-animation: buttonScroll 3s;
+          animation: buttonScroll 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 header .scroll-down-arrow span i {
   opacity: .1;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-header .scroll-down-arrow span i:hover {
-  -webkit-transform: translateY(20px);
-          transform: translateY(20px);
-  opacity: 1.1;
+  color: white;
 }
 
 .bio {
