@@ -427,6 +427,7 @@ header .scroll-down-arrow {
 }
 
 .skills ul {
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,9 +437,27 @@ header .scroll-down-arrow {
 
 .skills ul li {
   width: calc(100% / 5);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .skills ul i {
+  font-size: 3rem;
+}
+
+.projects {
+  background-color: #212529;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.projects h2 {
   font-size: 2rem;
+}
+
+.projects h2:after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #e83e8c;
+  margin: 10px auto 0 auto;
+  width: 5rem;
 }

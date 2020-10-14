@@ -152,16 +152,37 @@ header {
     text-align: center;
 
     ul {
+        margin-top: 40px;
         display: flex;
         flex-wrap: wrap;
         li {
             width: calc(100% / 5);
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         i {
-            font-size: 2rem;
+            font-size: 3rem;
         }
     }
+}
+
+
+.projects {
+    background-color: $grayBackground;
+    padding: 50px 0;
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        &:after {
+            display: block;
+            content: '';
+            border-bottom: solid 2px $pink;
+            margin: 10px auto 0 auto;
+            width: 5rem;
+        }
+    }
+
+    
 }
 
 
