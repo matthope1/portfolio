@@ -436,6 +436,7 @@ header .scroll-down-arrow {
 
 .skills ul li {
   width: calc(100% / 5);
+  margin-bottom: 1rem;
 }
 
 .skills ul i {
