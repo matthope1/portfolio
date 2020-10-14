@@ -148,8 +148,19 @@ header {
 }
 
 .skills {
-    padding-top: 75px;
+    padding: 70px 0;
     text-align: center;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: calc(100% / 5);
+        }
+        i {
+            font-size: 2rem;
+        }
+    }
 }
 
 

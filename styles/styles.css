@@ -422,6 +422,22 @@ header .scroll-down-arrow {
 }
 
 .skills {
-  padding-top: 75px;
+  padding: 70px 0;
   text-align: center;
+}
+
+.skills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills ul li {
+  width: calc(100% / 5);
+}
+
+.skills ul i {
+  font-size: 2rem;
 }
