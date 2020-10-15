@@ -266,6 +266,10 @@ body {
   color: white;
 }
 
+section {
+  padding: 70px 0;
+}
+
 i {
   color: white;
 }
@@ -392,10 +396,6 @@ header .scroll-down-arrow {
   height: 30px;
 }
 
-.bio {
-  padding-top: 50px;
-}
-
 .bio span {
   color: #e83e8c;
 }
@@ -422,7 +422,6 @@ header .scroll-down-arrow {
 }
 
 .skills {
-  padding: 70px 0;
   text-align: center;
 }
 
@@ -446,7 +445,6 @@ header .scroll-down-arrow {
 
 .projects {
   background-color: #212529;
-  padding: 50px 0;
   text-align: center;
 }
 
@@ -460,6 +458,10 @@ header .scroll-down-arrow {
   border-bottom: solid 2px #e83e8c;
   margin: 10px auto 0 auto;
   width: 5rem;
+}
+
+.contact {
+  background-color: #212529;
 }
 
 .contact textarea {
