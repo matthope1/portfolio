@@ -123,18 +123,18 @@
         </div>
     </section>
 
-
     <!-- TODO:  -->
     <section class="contact">
         <div class="wrapper">
             <h3>Message Me</h3>
-            <form action="">
-                <label class="sr-only" for=""> Your name</label>
-                <input type="text" placeholder="Your Name">
-                <label class="sr-only" for="">Your email</label>
-                <input type="email" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="...."></textarea>
-                <button>Send Message</button>
+            <form action="https://formspree.io/f/xbjpgpvk" method="POST">
+                <label class="sr-only" for="name">Your name</label>
+                <input type="text" name="name" placeholder="Your Name">
+                <label class="sr-only" for="_replyto">Your email</label>
+                <input type="email" name="_replyto" placeholder="Your Email">
+                <label class="sr-only" for="message">Your name</label>
+                <textarea name="message" cols="30" rows="10" placeholder="...."></textarea>
+                <button type="submit">Send Message</button>
             </form>
         </div>
     </section>

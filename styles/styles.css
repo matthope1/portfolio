@@ -509,6 +509,12 @@ header .scroll-down-arrow {
   border: none;
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+.contact button:hover {
+  background-color: #e41e79;
 }
 
 footer {

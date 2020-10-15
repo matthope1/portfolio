@@ -231,8 +231,12 @@ header {
         border: none;
         border-radius: 16px;
         font-family: $primary;
+        transition: background-color .5s;
     }
-    //TODO: add hover effect to button
+
+    button:hover {
+        background-color: $darkPink;
+    }
 }
 
 footer {
