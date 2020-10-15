@@ -464,8 +464,22 @@ header .scroll-down-arrow {
   background-color: #212529;
 }
 
+.contact form {
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  background-color: #212529;
+}
+
+.contact input {
+  width: calc(50% - 1rem);
+}
+
 .contact textarea {
   display: block;
+  width: 100%;
 }
 
 footer {

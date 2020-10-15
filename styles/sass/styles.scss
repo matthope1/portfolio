@@ -186,8 +186,22 @@ header {
 
 .contact {
     background-color: $grayBackground;
+    form {
+        margin: 0 auto;
+    }
+
+    input,
+    textarea {
+        background-color: $grayBackground;
+    }
+
+    input {
+        width: calc(50% - 1rem);
+    }
+
     textarea {
         display: block;
+        width: 100%;
     }
 }
 
@@ -196,3 +210,15 @@ footer {
     text-align: center;
 }
 
+// media queries 
+@media (max-width: 940px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
