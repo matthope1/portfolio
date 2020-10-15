@@ -201,6 +201,7 @@ header {
 
     form {
         margin: 0 auto;
+        max-width: 600px;
     }
 
     input,
@@ -213,7 +214,7 @@ header {
     }
 
     input {
-        width: calc(50% - 5px);
+        width: calc(50% - 2px);
     }
 
     textarea {
