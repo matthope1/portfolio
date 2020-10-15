@@ -461,3 +461,12 @@ header .scroll-down-arrow {
   margin: 10px auto 0 auto;
   width: 5rem;
 }
+
+.contact textarea {
+  display: block;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+}

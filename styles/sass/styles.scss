@@ -166,7 +166,6 @@ header {
     }
 }
 
-
 .projects {
     background-color: $grayBackground;
     padding: 50px 0;
@@ -182,9 +181,16 @@ header {
             width: 5rem;
         }
     }
-
-    
 }
 
+.contact {
+    textarea{
+        display: block;
+    }
+}
 
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
 
