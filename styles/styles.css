@@ -333,11 +333,13 @@ header li {
 }
 
 header .button {
-  border: 1px solid white;
+  border: .175rem solid white;
   border-radius: 16px;
   padding: 4px 12px;
   -webkit-transition: color .6s, background-color .6s;
   transition: color .6s, background-color .6s;
+  -webkit-box-shadow: 5px 5px black;
+          box-shadow: 5px 5px black;
 }
 
 header .button:hover {
