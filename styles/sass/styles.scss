@@ -31,6 +31,7 @@ ul, li {
     padding: 0;
 }
 
+
 .wrapper {
     width: 80%;
     max-width: 1000px;
@@ -186,6 +187,18 @@ header {
 
 .contact {
     background-color: $grayBackground;
+    text-align: center;
+    h3 {
+        font-size: 2rem;
+        &:after {
+            display: block;
+            content: '';
+            border-bottom: solid 2px $pink;
+            margin: 10px auto 0 auto;
+            width: 5rem;
+        }
+    }
+
     form {
         margin: 0 auto;
     }
@@ -193,15 +206,21 @@ header {
     input,
     textarea {
         background-color: $grayBackground;
+        border: 2px solid $border;
+        border-radius: .2rem;
+        color: #ffffff; 
+        padding: 8px;
     }
 
     input {
-        width: calc(50% - 1rem);
+        width: calc(50% - 5px);
     }
 
     textarea {
+        margin-top: 10px;
         display: block;
         width: 100%;
+        resize: none;
     }
 }
 

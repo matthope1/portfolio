@@ -462,6 +462,19 @@ header .scroll-down-arrow {
 
 .contact {
   background-color: #212529;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 2rem;
+}
+
+.contact h3:after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #e83e8c;
+  margin: 10px auto 0 auto;
+  width: 5rem;
 }
 
 .contact form {
@@ -471,15 +484,21 @@ header .scroll-down-arrow {
 .contact input,
 .contact textarea {
   background-color: #212529;
+  border: 2px solid #343a40;
+  border-radius: .2rem;
+  color: #ffffff;
+  padding: 8px;
 }
 
 .contact input {
-  width: calc(50% - 1rem);
+  width: calc(50% - 5px);
 }
 
 .contact textarea {
+  margin-top: 10px;
   display: block;
   width: 100%;
+  resize: none;
 }
 
 footer {
