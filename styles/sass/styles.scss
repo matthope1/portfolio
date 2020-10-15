@@ -217,11 +217,22 @@ header {
     }
 
     textarea {
-        margin-top: 10px;
+        margin: 10px 0;
         display: block;
         width: 100%;
         resize: none;
     }
+    
+    button {
+        background-color: $pink;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 16px;
+        font-family: $primary;
+    }
+    //TODO: add hover effect to button
+
 }
 
 footer {
