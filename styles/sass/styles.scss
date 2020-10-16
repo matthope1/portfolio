@@ -224,7 +224,7 @@ header {
     text-align: center;
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         &:after {
             display: block;
             content: '';
@@ -246,14 +246,19 @@ header {
         }
     }
 
+    a {
+        font-size: 2rem;
+    }
+
     .projects-links {
         background-color: $pink;
         color: #ffffff;
-        padding: 7px 20px;
+        padding: 3px 22px;
         border: none;
         border-radius: 16px;
         font-family: $primary;
         transition: background-color .5s;
+        margin-right: 15px;
     }
 
     .projects-links:hover{

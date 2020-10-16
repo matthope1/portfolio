@@ -501,7 +501,7 @@ header .scroll-down-arrow {
 }
 
 .projects h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .projects h2:after {
@@ -530,15 +530,20 @@ header .scroll-down-arrow {
   width: 100%;
 }
 
+.projects a {
+  font-size: 2rem;
+}
+
 .projects .projects-links {
   background-color: #e83e8c;
   color: #ffffff;
-  padding: 7px 20px;
+  padding: 3px 22px;
   border: none;
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
+  margin-right: 15px;
 }
 
 .projects .projects-links:hover {
