@@ -383,6 +383,12 @@ header .header {
           justify-content: center;
 }
 
+header .octocat {
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+
 header .scroll-down-arrow {
   position: absolute;
   bottom: 20px;
