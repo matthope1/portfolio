@@ -74,6 +74,17 @@ header {
         font-size: 1.5rem;
     }
 
+    .header-links {
+        i {
+            font-size: 3rem;
+        }
+
+    }
+
+    .header-links p {
+        color: $pink;
+    }
+
     ul {
         display: flex;
         padding-top: 7px;
