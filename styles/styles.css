@@ -285,7 +285,7 @@ ul, li {
 
 .wrapper {
   width: 80%;
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -320,18 +320,27 @@ header .logo {
   width: 10%;
   font-family: "Poppins", sans-serif;
   margin: 0;
+  font-size: 3rem;
 }
 
 header .logo--big {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 header .title {
+  font-size: 2rem;
+}
+
+header a {
   font-size: 1.5rem;
 }
 
+header p {
+  font-size: 1.7rem;
+}
+
 header .header-links i {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 header .header-links p {
@@ -386,7 +395,7 @@ header .link-animation:hover {
 }
 
 header .header {
-  margin-top: 70px;
+  margin-top: 120px;
   text-align: center;
   height: 50vh;
   display: -webkit-box;
@@ -408,7 +417,7 @@ header .header-links {
 }
 
 header .octocat {
-  width: 50px;
+  width: 85px;
   height: auto;
   margin: 0 auto;
 }
@@ -424,6 +433,10 @@ header .scroll-down-arrow {
           animation-iteration-count: infinite;
   opacity: .1;
   height: 30px;
+}
+
+.bio {
+  font-size: 1.8rem;
 }
 
 .bio span {
@@ -453,6 +466,7 @@ header .scroll-down-arrow {
 
 .bio .wrapper li {
   margin-top: 3px;
+  font-size: 2rem;
 }
 
 .skills {
@@ -593,7 +607,7 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .bio .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

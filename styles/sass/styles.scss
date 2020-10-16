@@ -33,7 +33,7 @@ ul, li {
 
 .wrapper {
     width: 80%;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -63,19 +63,28 @@ header {
        width: 10%; 
        font-family: $primary;
        margin: 0;
+       font-size: 3rem;
     }
 
     .logo--big {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .title {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    a {
+         font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1.7rem;
     }
 
     .header-links {
         i {
-            font-size: 3rem;
+            font-size: 5rem;
         }
 
     }
@@ -127,7 +136,7 @@ header {
     }
 
     .header {
-        margin-top: 70px;
+        margin-top: 120px;
         text-align: center;
         height: 50vh;
         display: flex;
@@ -141,7 +150,7 @@ header {
     }
 
     .octocat {
-        width: 50px;
+        width: 85px;
         height: auto;
         margin: 0 auto;
     }
@@ -159,6 +168,7 @@ header {
 }
 
 .bio {
+    font-size: 1.8rem;
 
     span {
         color: $pink;
@@ -182,6 +192,7 @@ header {
 
         li {
             margin-top: 3px;
+            font-size: 2rem;
         }
     }
 
@@ -309,12 +320,12 @@ footer {
     text-align: center;
 }
 
+
+
 // media queries 
-@media (max-width: 940px) {
 
-}
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .bio {
 
         .wrapper {
@@ -331,6 +342,10 @@ footer {
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+    
 }
 
 @media (max-width: 680px) {
