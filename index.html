@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>matt</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./scripts/script.js">
     <script src="https://kit.fontawesome.com/ee57a4b653.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <!-- Calendly link widget begin -->
@@ -29,14 +30,22 @@
         
         <div class="header wrapper">
             <h2 class="logo--big">Matthew Hope</h2>
-            <p>Front-End Developer</p>
-
-            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matt-hope/15-minute-meeting'});return false;">Schedule time with me</a>
-            <p>Check out my github</p>
-            <a href="https://github.com/matthope1"><img class="octocat" src="./assets/Octocat.png" alt="octocat github link"></a>
+            <p class="title">Front-End Developer</p>
+            <div class="header-links wrapper">
+                <div>
+                    <p>Schedule time with me</p>
+                    <i class="fas fa-calendar-alt"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matt-hope/15-minute-meeting'});return false;"></a></i>
+                </div>
+                <div>
+                    <p>Check out my github</p>
+                    <a href="https://github.com/matthope1"><img class="octocat" src="./assets/Octocat.png" alt="octocat github link"></a>
+                </div>
+            </div>
         </div>
 
-        <div class="wrapper">
+
+
+        <div class="wrapper ">
             <a href="#bio" class="scroll-down-arrow">
                 <span><i class="fas fa-chevron-down fa-lg"></i></span>
             </a>

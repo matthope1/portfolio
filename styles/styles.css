@@ -319,6 +319,15 @@ header .nav {
 header .logo {
   width: 10%;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header .logo--big {
+  font-size: 3rem;
+}
+
+header .title {
+  font-size: 1.5rem;
 }
 
 header ul {
@@ -369,6 +378,7 @@ header .link-animation:hover {
 }
 
 header .header {
+  margin-top: 70px;
   text-align: center;
   height: 50vh;
   display: -webkit-box;
@@ -378,9 +388,15 @@ header .header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+header .header-links {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 header .octocat {

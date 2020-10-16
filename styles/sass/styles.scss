@@ -63,6 +63,15 @@ header {
     .logo {
        width: 10%; 
        font-family: $primary;
+       margin: 0;
+    }
+
+    .logo--big {
+        font-size: 3rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
     }
 
     ul {
@@ -108,11 +117,17 @@ header {
     }
 
     .header {
+        margin-top: 70px;
         text-align: center;
         height: 50vh;
         display: flex;
         flex-direction: column;
-        justify-content: center; 
+    }
+
+    .header-links {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
     }
 
     .octocat {
