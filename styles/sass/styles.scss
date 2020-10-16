@@ -282,17 +282,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    //FIXME: align the header and the ul to the center
-    header {
-        .nav {
-            flex-direction: column;
-            text-align: center;
-            ul {
-                text-align: center;
-            }
-        }
-    }
-
     .bio {
 
         .wrapper {
@@ -300,6 +289,7 @@ footer {
             img {
                 width: 65%;
                 margin: 0 auto;
+                margin: 0 auto 20px auto;
             }
             
             div {
@@ -307,12 +297,34 @@ footer {
                 width: 100%;
             }
         }
+    }
+}
 
-       
+@media (max-width: 680px) {
+//FIXME: align the header and the ul to the center
+
+    header {
+        .nav {
+            flex-direction: column;
+            align-items: center;
+            ul {
+                margin-top: 30px;
+            }
+        }
     }
 
-
-
+    .skills {
+        ul {
+            li {
+                width: calc(100% / 2);
+                margin-bottom: 2rem;
+            }
+            i {
+                font-size: 3rem;
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 480px) {
