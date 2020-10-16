@@ -31,7 +31,6 @@ ul, li {
     padding: 0;
 }
 
-
 .wrapper {
     width: 80%;
     max-width: 1000px;
@@ -283,6 +282,36 @@ footer {
 }
 
 @media (max-width: 768px) {
+    //FIXME: align the header and the ul to the center
+    header {
+        .nav {
+            flex-direction: column;
+            text-align: center;
+            ul {
+                text-align: center;
+            }
+        }
+    }
+
+    .bio {
+
+        .wrapper {
+            flex-direction: column;
+            img {
+                width: 65%;
+                margin: 0 auto;
+            }
+            
+            div {
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+       
+    }
+
+
 
 }
 
