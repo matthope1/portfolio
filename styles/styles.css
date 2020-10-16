@@ -457,6 +457,7 @@ header .scroll-down-arrow {
 }
 
 .bio .wrapper div {
+  margin-top: 30px;
   width: 50%;
 }
 
@@ -561,7 +562,7 @@ header .scroll-down-arrow {
 }
 
 .contact h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .contact h3:after {
@@ -570,6 +571,10 @@ header .scroll-down-arrow {
   border-bottom: solid 2px #e83e8c;
   margin: 10px auto 0 auto;
   width: 5rem;
+}
+
+.contact p {
+  font-size: 1.7rem;
 }
 
 .contact form {
@@ -584,6 +589,7 @@ header .scroll-down-arrow {
   border-radius: .2rem;
   color: #ffffff;
   padding: 8px;
+  font-size: 1.9rem;
 }
 
 .contact input {
@@ -601,11 +607,13 @@ header .scroll-down-arrow {
   background-color: #e83e8c;
   color: #ffffff;
   padding: 10px 20px;
+  margin-top: 30px;
   border: none;
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
+  font-size: 1.6rem;
 }
 
 .contact button:hover {
@@ -615,6 +623,7 @@ header .scroll-down-arrow {
 footer {
   padding: 10px 0;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 1080px) {

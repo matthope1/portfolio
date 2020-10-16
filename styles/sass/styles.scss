@@ -3,7 +3,6 @@
 @import 'variables';
 @import 'animations';
 
-
 html {
     font-size: 62.5%;
 }
@@ -183,6 +182,7 @@ header {
         }
         
         div {
+            margin-top: 30px;
             width: 50%;
         }
         
@@ -195,7 +195,6 @@ header {
             font-size: 2rem;
         }
     }
-
 }
 
 .skills {
@@ -274,7 +273,7 @@ header {
     background-color: $grayBackground;
     text-align: center;
     h3 {
-        font-size: 2rem;
+        font-size: 3rem;
         &:after {
             display: block;
             content: '';
@@ -282,6 +281,10 @@ header {
             margin: 10px auto 0 auto;
             width: 5rem;
         }
+    }
+    
+    p {
+        font-size: 1.7rem;
     }
 
     form {
@@ -296,6 +299,7 @@ header {
         border-radius: .2rem;
         color: #ffffff; 
         padding: 8px;
+        font-size: 1.9rem;
     }
 
     input {
@@ -313,10 +317,12 @@ header {
         background-color: $pink;
         color: #ffffff;
         padding: 10px 20px;
+        margin-top: 30px;
         border: none;
         border-radius: 16px;
         font-family: $primary;
         transition: background-color .5s;
+        font-size: 1.6rem;
     }
 
     button:hover {
@@ -327,13 +333,10 @@ header {
 footer {
     padding: 10px 0;
     text-align: center;
+    font-size: 1.3rem;
 }
 
-
-
 // media queries 
-
-
 @media (max-width: 1080px) {
     .bio {
 
