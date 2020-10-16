@@ -179,12 +179,20 @@ header {
         p {
             color: rgba(255,255,255,.5);
         }
+
+        li {
+            margin-top: 3px;
+        }
     }
 
 }
 
 .skills {
     text-align: center;
+
+    h2 {
+        font-size: 2rem;
+    }
 
     ul {
         margin-top: 40px;

@@ -451,8 +451,16 @@ header .scroll-down-arrow {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.bio .wrapper li {
+  margin-top: 3px;
+}
+
 .skills {
   text-align: center;
+}
+
+.skills h2 {
+  font-size: 2rem;
 }
 
 .skills ul {
