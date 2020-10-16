@@ -222,7 +222,32 @@ header {
             width: 5rem;
         }
     }
-    //TODO: add display flex ul 
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        li {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .projects-links {
+        background-color: $pink;
+        color: #ffffff;
+        padding: 7px 20px;
+        border: none;
+        border-radius: 16px;
+        font-family: $primary;
+        transition: background-color .5s;
+    }
+
+    .projects-links:hover{
+        background-color: $darkPink;
+    }
 }
 
 .contact {
