@@ -474,11 +474,12 @@ header .scroll-down-arrow {
 }
 
 .skills h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-bottom: 40px;
 }
 
 .skills ul {
-  margin-top: 40px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,7 +493,11 @@ header .scroll-down-arrow {
 }
 
 .skills ul i {
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.skills ul p {
+  font-size: 1.8rem;
 }
 
 .projects {

@@ -202,11 +202,12 @@ header {
     text-align: center;
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-bottom: 40px;
     }
 
     ul {
-        margin-top: 40px;
+        margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
         li {
@@ -214,7 +215,10 @@ header {
             margin-bottom: 2rem;
         }
         i {
-            font-size: 3rem;
+            font-size: 4rem;
+        }
+        p {
+            font-size: 1.8rem;
         }
     }
 }
