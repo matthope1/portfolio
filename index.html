@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>matt</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./scripts/script.js">
     <script src="https://kit.fontawesome.com/ee57a4b653.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <!-- Calendly link widget begin -->
@@ -38,7 +37,7 @@
                 </div>
                 <div>
                     <p>My github</p>
-                    <a href="https://github.com/matthope1"><img class="octocat" src="./assets/Octocat.png" alt="octocat github link"></a>
+                    <a href="https://github.com/matthope1" target="_blank"><img class="octocat" src="./assets/Octocat.png" alt="octocat github link"></a>
                 </div>
             </div>
         </div>
@@ -80,8 +79,8 @@
             <ul>
                 <li>
                     <img src="./assets/keeb-store-home_macbookgrey_front.png" alt="">
-                    <a class="projects-links" href="https://matthope1.github.io/keeb-store/">Live link</a>
-                    <a class="projects-links" href="https://github.com/matthope1/keeb-store">Github</a>
+                    <a class="projects-links" href="https://matthope1.github.io/keeb-store/" target="_blank">Live link</a>
+                    <a class="projects-links" href="https://github.com/matthope1/keeb-store" target="_blank">Github</a>
                 </li>
                 <li>
                     <a href="./appname.html"><img src="#" alt=""></a>
@@ -149,7 +148,8 @@
     <section id="contact" class="contact">
         <div class="wrapper">
             <h3>Message Me</h3>
-            <p>matt-hope@outlook.com</p>
+            <p>matt-hope@outlook.com <i class="far fa-clipboard"></i></p>
+            <button onclick="copyEmail()" ></button>
             <form action="https://formspree.io/f/xbjpgpvk" method="POST">
                 <label class="sr-only" for="name">Your name</label>
                 <input type="text" name="name" placeholder="Your Name">
@@ -168,5 +168,6 @@
         </div>
     </footer>
 
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

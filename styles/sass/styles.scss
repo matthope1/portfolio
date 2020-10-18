@@ -48,7 +48,7 @@ a {
 }
 
 header {
-    height: 70vh;
+    height: 100vh;
     color: white;
     position: relative;
 
@@ -363,6 +363,10 @@ footer {
 @media (max-width: 680px) {
 //FIXME: align the header and the ul to the center
 
+    .wrapper {
+        width: 90%;
+    }
+
     header {
         .nav {
             flex-direction: column;
@@ -384,9 +388,10 @@ footer {
             }
         }
     }
-    
 }
 
 @media (max-width: 480px) {
-
+    .wrapper {
+        width: 100%;
+    }
 }

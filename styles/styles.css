@@ -301,7 +301,7 @@ a {
 }
 
 header {
-  height: 70vh;
+  height: 100vh;
   color: white;
   position: relative;
 }
@@ -645,6 +645,9 @@ footer {
 }
 
 @media (max-width: 680px) {
+  .wrapper {
+    width: 90%;
+  }
   header .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -663,5 +666,11 @@ footer {
   }
   .skills ul i {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%;
   }
 }
