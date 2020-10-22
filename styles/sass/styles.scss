@@ -85,7 +85,6 @@ header {
         i {
             font-size: 5rem;
         }
-
     }
 
     .header-links p {
@@ -285,8 +284,29 @@ header {
     
     p {
         font-size: 1.7rem;
+        position: relative;
+
+        .copy-email-message {
+            display: block;
+            visibility: hidden;
+        }
+
+        &:hover {
+            
+            .copy-email-message {
+                visibility: visible;
+            }
+        }
+
+        &:after {
+            display: none;
+            position: absolute;
+            content: "Copy Email";
+            width: 2rem;
+        }
     }
 
+    
     form {
         margin: 30px auto 0 auto;
         max-width: 600px;

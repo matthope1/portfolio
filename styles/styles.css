@@ -575,6 +575,23 @@ header .scroll-down-arrow {
 
 .contact p {
   font-size: 1.7rem;
+  position: relative;
+}
+
+.contact p .copy-email-message {
+  display: block;
+  visibility: hidden;
+}
+
+.contact p:hover .copy-email-message {
+  visibility: visible;
+}
+
+.contact p:after {
+  display: none;
+  position: absolute;
+  content: "Copy Email";
+  width: 2rem;
 }
 
 .contact form {

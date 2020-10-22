@@ -13,10 +13,12 @@ app.copyEmail = function() {
     document.body.removeChild(placeholder);
 }
 
-const copyEmailButton = document.getElementById('copy-email-icon');
+const copyEmailButton = document.getElementById("copy-email-icon");
+const copyEmailMessge = document.getElementById("copy-email-message");
 
 copyEmailButton.addEventListener('click', () =>{
     app.copyEmail();
+    copyEmailMessge.innerHTML = "email copied!";
 });
 
 
