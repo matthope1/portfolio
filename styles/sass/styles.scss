@@ -5,6 +5,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -151,6 +152,18 @@ header {
         width: 85px;
         height: auto;
         margin: 0 auto;
+
+        &:hover {
+            box-shadow: #ffffff;
+            transform: scale(1.1);
+        }
+    }
+
+    .calendar {
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     .scroll-down-arrow {
@@ -166,7 +179,7 @@ header {
 }
 
 .bio {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 
     span {
         color: $pink;
@@ -187,6 +200,7 @@ header {
         
         p {
             color: rgba(255,255,255,.5);
+            line-height: 2.7rem;
         }
 
         li {
@@ -289,6 +303,10 @@ header {
         .copy-email-message {
             display: block;
             visibility: hidden;
+            background-color: white;
+            color: black;
+            margin: 0 auto 10px auto;
+            width: 150px;
         }
 
         &:hover {

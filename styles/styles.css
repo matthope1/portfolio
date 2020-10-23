@@ -258,6 +258,7 @@ html {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -422,6 +423,18 @@ header .octocat {
   margin: 0 auto;
 }
 
+header .octocat:hover {
+  -webkit-box-shadow: #ffffff;
+          box-shadow: #ffffff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header .calendar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 header .scroll-down-arrow {
   position: absolute;
   bottom: 20px;
@@ -436,7 +449,7 @@ header .scroll-down-arrow {
 }
 
 .bio {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .bio span {
@@ -463,6 +476,7 @@ header .scroll-down-arrow {
 
 .bio .wrapper p {
   color: rgba(255, 255, 255, 0.5);
+  line-height: 2.7rem;
 }
 
 .bio .wrapper li {
@@ -581,6 +595,10 @@ header .scroll-down-arrow {
 .contact p .copy-email-message {
   display: block;
   visibility: hidden;
+  background-color: white;
+  color: black;
+  margin: 0 auto 10px auto;
+  width: 150px;
 }
 
 .contact p:hover .copy-email-message {

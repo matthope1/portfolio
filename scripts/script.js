@@ -7,18 +7,33 @@ app.copyEmail = function() {
     const textToCopy = "matt-hope@outlook.com";
     const placeholder = document.createElement("input");
     document.body.appendChild(placeholder);
-    placeholder.setAttribute('value', textToCopy);
+    placeholder.setAttribute("value", textToCopy);
     placeholder.select();
     document.execCommand("Copy");
     document.body.removeChild(placeholder);
 }
 
-const copyEmailButton = document.getElementById("copy-email-icon");
-const copyEmailMessge = document.getElementById("copy-email-message");
+//TODO: change this so that we dont have to add EL
+// to the email button and the email 
 
-copyEmailButton.addEventListener('click', () =>{
+const copyEmailButton = document.getElementById("copy-email-icon");
+const copyEmailMessage = document.getElementById("copy-email-message");
+const email = document.getElementById("email");
+
+copyEmailButton.addEventListener("click", () =>{
     app.copyEmail();
-    copyEmailMessge.innerHTML = "email copied!";
+    copyEmailMessage.innerHTML = "Email copied!";
 });
 
+email.addEventListener("click", () =>{
+    app.copyEmail();
+    copyEmailMessage.innerHTML = "Email copied!";
+});
 
+copyEmailButton.addEventListener("mouseout", () => {
+    copyEmailMessage.innerHTML = "Copy email";
+});
+
+email.addEventListener("mouseout", () => {
+    copyEmailMessage.innerHTML = "Copy email";
+});

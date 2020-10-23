@@ -16,7 +16,7 @@
 
     <header>
         <div class="nav wrapper">
-            <h1 class="logo">MH</h1>
+            <h1 class="logo">MH!</h1>
             <nav>
                 <ul>
                     <li><a class="link--animation" href="#bio">Bio</a></li>
@@ -33,7 +33,7 @@
             <div class="header-links wrapper">
                 <div>
                     <p>Book a call with me</p>
-                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matt-hope/15-minute-meeting'});return false;"><i class="fas fa-calendar-alt"></i></a>
+                    <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matt-hope/15-minute-meeting'});return false;"><i class="calendar fas fa-calendar-alt"></i></a>
                 </div>
                 <div>
                     <p>My github</p>
@@ -150,11 +150,10 @@
             <h3>Message Me</h3>
             <!-- TODO: add a copied! alert that pops up  -->
             <!-- When the user copies email  -->
-            <input type="text" value="Hello World" id="myInput">
             <p>
                 <span id="copy-email-message" class="copy-email-message">Copy email</span>
-                matt-hope<code>@</code>outlook.com
-                <i id="copy-email-icon" class="far fa-clipboard"></i>
+                <span id="email">matt-hope<code>@</code>outlook.com</span>
+                <i id="copy-email-icon" class="copy-email-icon far fa-clipboard"></i>
             </p>
             <form action="https://formspree.io/f/xbjpgpvk" method="POST">
                 <label class="sr-only" for="name">Your name</label>
