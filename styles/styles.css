@@ -532,6 +532,10 @@ header .scroll-down-arrow {
   width: 5rem;
 }
 
+.projects p {
+  font-size: 1.7rem;
+}
+
 .projects ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -540,6 +544,7 @@ header .scroll-down-arrow {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 70px;
 }
 
 .projects ul li {
@@ -548,6 +553,7 @@ header .scroll-down-arrow {
 
 .projects ul img {
   width: 100%;
+  margin: -90px 0 -150px 0;
 }
 
 .projects a {
@@ -705,11 +711,5 @@ footer {
   .contact input {
     width: 100%;
     margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .wrapper {
-    width: 100%;
   }
 }

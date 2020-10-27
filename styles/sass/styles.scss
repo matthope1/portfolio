@@ -250,15 +250,21 @@ header {
         }
     }
 
+    p {
+        font-size: 1.7rem;
+    }
+
     ul {
         display: flex;
         flex-direction: column;
+        margin-top: 70px;
         li {
             width: 100%;
         }
 
         img {
             width: 100%;
+            margin: -90px 0 -150px 0;
         }
     }
 
@@ -436,7 +442,5 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .wrapper {
-        width: 100%;
-    }
+    
 }
