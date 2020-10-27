@@ -556,6 +556,10 @@ header .scroll-down-arrow {
   margin: -90px 0 -150px 0;
 }
 
+.projects ul .project-description {
+  margin-bottom: 50px;
+}
+
 .projects a {
   font-size: 2rem;
 }
