@@ -285,6 +285,7 @@ header {
         font-family: $primary;
         transition: background-color .5s;
         margin-right: 15px;
+        position: relative;
     }
 
     .projects-links:hover{
