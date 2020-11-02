@@ -171,6 +171,8 @@ header {
         bottom: 20px;
         text-align: center;
         width: 80%;
+        // width: 100%;
+        
         animation: buttonScroll 1.35s;
         animation-iteration-count: infinite;
         opacity: .1;
@@ -422,6 +424,18 @@ footer {
             align-items: center;
             ul {
                 margin-top: 30px;
+            }
+        }
+
+        .scroll-down-arrow {
+            width: 90%;
+        }
+    }
+
+    .projects {
+        ul {
+            img {
+                margin: 0;
             }
         }
     }
